@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Sign up Form</title>
+</head>
+<body>
+    <h2>Student Sign up Form</h2>
+    <fieldset>
+        <legend>personal information</legend>
+        <form>
+            FirstName:<br><input type="text" required/><br>
+            <br>
+            LastName:<br><input type="text" required/><br>
+            <br>
+            Gender: <br> <input type="radio" name="gender" id="m"/>
+            <label for="m">Male</label><br>
+            <input type="radio" name="gender" id="f"/>
+            <label for="f">Female</label><br>
+            <br>
+            DOB: <br> <input type="date" /><br>
+            <br>
+            Email: <br> <input type="email" /><br>
+            <br>
+            Phone number: <br> <input type="tel" />
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Academic information</legend>
+        <form>
+            Grade/Year: <br> <input type="text" />
+            <br>
+            <br>
+            Course: <br><select>
+                <option>science</option>
+                <option>Math</option>
+            </select>
+            <br>
+            <br>
+            Interset: <br>
+            <input type="checkbox" name="intreset" id="i"/>
+            <label for="i">computer science</label><br>
+            <input type="checkbox" name="intreset" id="j"/>
+            <label for="j">math</label><br>
+
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend>Account setUp</legend>
+        <form>
+            username: <br> <input type="text" /><br>
+            password: <br> <input type="password" /><br>
+            confirm password: <br> <input type="password"/>
+        </form>
+    </fieldset>
+    <button type="submit">signup</button>
+</body>
+</html>

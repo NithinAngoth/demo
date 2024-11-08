@@ -1,0 +1,22 @@
+p{
+    color: red;
+    font-size: 100%;
+    font-family: 'Times New Roman';
+}
+.praveen{
+    color: purple;
+    font-family: 'Courier New';
+    font-size: 100%;
+}
+#nithin{
+    color: orange;
+    font-family: 'Comic Sans ms';
+}
+h2{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.jayanth{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
